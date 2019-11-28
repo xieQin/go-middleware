@@ -1,0 +1,26 @@
+# govendor
+.cache
+
+# golang
+bin/
+pkg/
+!server/src/**/pkg/
+
+# .DS_Store
+.DS_Store
+
+# log
+*.log
+server/appendonly-7000.aof
+server/nodes-7000.conf
+
+.vscode
+.idea
+
+# dev config
+*.dev.yaml
+*.test.yaml
+*.test.yaml2
+
+tmp
+scripts/sync.sh
